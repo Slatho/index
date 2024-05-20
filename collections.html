@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros Collections</title>
+	<link rel="stylesheet" href="css/mycss.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0033a0;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f5f5f5;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #0033a0;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .collection {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .collection img {
+            max-width: 40%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #0033a0;
+            color: #fff;
+            text-align: center;
+            padding: 2px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warner Bros Collections</h1>
+    </header>
+	<nav>
+	   <ul>
+	     <a href="index.html">Home</a>
+		 <a href="movies.html">Movies</a>
+		 <a href="tv shows.html">Tv Shows</a>
+		 <a href="games and apps.html">Games and Apps</a>
+		 <a class ="active" href="collections.html">Collections</a>
+		 <a href="feedback.html">Feedback</a>
+	   </ul>
+    </nav>
+    <div class="container">
+        <div class="collection">
+            <h2>DC Comics Collection</h2>
+            <img src="WMD/dc_comics_collection.jpg" alt="DC Comics Collection">
+            <p>A collection featuring movies, TV shows, and games based on DC Comics characters like Batman, Superman, Wonder Woman, and more.</p>
+        </div>
+        <div class="collection">
+            <h2>Harry Potter Collection</h2>
+            <img src="WMD/harry_potter_collection.jpg" alt="Harry Potter Collection">
+            <p>A collection including all the Harry Potter movies, spin-offs, and related merchandise.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+    </footer>
+</body>
+</html>

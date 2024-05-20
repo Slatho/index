@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros TV Shows</title>
+	<link rel="stylesheet" href="css/mycss.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0033a0;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f5f5f5;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #0033a0;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .tv-show {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .tv-show img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #0033a0;
+            color: #fff;
+            text-align: center;
+            padding: 2px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warner Bros TV Shows</h1>
+    </header>
+	<p>Quality entertainment filled with highly respected talent like no other</P>
+	<p>Suspense,Action,Drama,Romance,Comedy all in one gift wrapped by warner bros</p>
+	    <nav>
+	   <ul>
+	     <a href="index.html">Home</a>
+		 <a href="movies.html">Movies</a>
+		 <a class="active" href="tv shows.html">Tv Shows</a>
+		 <a href="games and apps.html">Games and Apps</a>
+		 <a href="collections.html">Collections</a>
+		 <a href="feedback.html">Feedback</a>
+	   </ul>
+    </nav>
+    <div class="container">
+        <div class="tv-show">
+            <h2>Friends</h2>
+            <img src="WMD/friends.jpg" alt="Friends">
+            <p>Created by David Crane, Marta Kauffman</p>
+            <p>Starring: Jennifer Aniston, Courteney Cox, Lisa Kudrow</p>
+            <p>A group of friends in New York City navigate through the complexities of life, love, and friendship.</p>
+        </div>
+        <div class="tv-show">
+            <h2>The Big Bang Theory</h2>
+            <img src="WMD/big_bang_theory.jpg" alt="The Big Bang Theory">
+            <p>Created by Chuck Lorre, Bill Prady</p>
+            <p>Starring: Johnny Galecki, Jim Parsons, Kaley Cuoco</p>
+            <p>A group of socially awkward scientists and their interactions with each other and the world around them.</p>
+        </div>
+		<div class="tv-show">
+		    <h2>All American:Homecoming</h2>
+		    <img src="WMD/all_american_homecoming.jpg" alt="All Ameican:Homecoming">
+		    <p>Created by Nkechi Okoro Carroll</p>
+	    	<p>Starring: Rhoyle Ivy King, Ari Beverly, Cory Hadrict</p>
+		    <p>follows a young tennis hopeful from beverly hills and an elite baseball player from chicago as they contend with the high stakes of college sports.</p>
+		</div>
+		<div class="tv-show">
+		    <h2>You</h2>
+		    <img src="WMD/you.jpg" alt="You">
+			<p>Created by Greg Berlanti and Sera Gamble</p>
+			<p>Starring: Penn Badgley, Elizabeth Lali, Shay Mitchell</p>
+			<p>A clever bookstore manager relies on his savvy internet know-how to make the woman of his dreams fall in love with him</p>
+		
+		</div
+    </div>
+	<picture>
+  <source media="(max-width: 600px)" srcset="small.jpg">
+  <source media="(max-width: 1200px)" srcset="medium.jpg">
+  <img src="large.jpg" alt="description">
+</picture>
+
+    <footer class="footer">
+        <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+    </footer>
+</body>
+</html>
